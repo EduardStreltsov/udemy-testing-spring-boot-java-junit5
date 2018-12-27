@@ -7,7 +7,7 @@ public class IndexController {
 	}
 	
 	public String oupsHandler() {
-		return "";
-//		throw new ValueNotFoundException();
+//		return "";
+		throw new ValueNotFoundException();
 	}
 }
